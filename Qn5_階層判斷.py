@@ -1,4 +1,4 @@
-#Hw_1 N!超過 M 的最小 N 值為何？
+# Qn5_階層判斷
 max = int(input("輸入最大值"))
 toatl_1 = 1
 n = 1

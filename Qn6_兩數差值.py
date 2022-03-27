@@ -14,5 +14,4 @@ Min = ""
 for u in range(0,len(numList)):
     Min = Min + numList[u]
 
-ans = int(Max) - int(Min)
-print(f"最大值數列與最小值數列差值為:{ans}")
+print(f"最大值數列與最小值數列差值為:{int(Max) - int(Min)}")
