@@ -1,5 +1,5 @@
 # Qn5_階層判斷
-max = int(input("輸入最大值"))
+max = int(input("輸入一整數"))
 toatl_1 = 1
 n = 1
 while (toatl_1 <= max):
