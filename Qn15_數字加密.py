@@ -1,5 +1,4 @@
 # Qn15_數字加密
-
 inp = input("輸入一組四位數字為:")
 numlist = []
 for i in range(4):

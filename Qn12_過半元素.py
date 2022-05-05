@@ -6,10 +6,12 @@ for k in range(15):
     if numlist[k] == "ok":
         numlist.pop()
         break
+
 ans = ""
 for i in range(len(numlist)):
     if numlist.count(numlist[i]) > len(numlist)/2:
         ans = numlist[i]
+
 if ans == "":
     print(f"過半元素為:NO")
 else:

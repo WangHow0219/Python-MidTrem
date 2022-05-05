@@ -1,5 +1,6 @@
 # Qn2_計算電費
 degree = int(input("輸入用電度數 (正整數) : "))
+
 s_cost = 0
 us_cost = 0
 if degree <= 120:
@@ -17,5 +18,6 @@ elif degree <= 700:
 else:
     s_cost = 252 + 634.2 + 746.3 + 994 + (degree-700) * 5.63
     us_cost = 252 + 562.8 + 613.7 + 802 + (degree-700) * 4.5
+
 print(f"Summer months : {s_cost:.2f}")
 print(f"Non-Summer months : {us_cost:.2f}")

@@ -1,6 +1,7 @@
 # Qn4_2座標判斷及計算圓點距離
 x = int(input("輸入X座標"))
 y = int(input("輸入Y座標"))
+
 if x == 0 and y != 0:
     print("該點在 Y 軸上",end="")
 elif y == 0 and x != 0:

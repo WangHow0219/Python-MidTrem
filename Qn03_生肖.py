@@ -1,7 +1,9 @@
 # Qn3_西元年轉生肖
 year = int(input("輸入西元年"))
+
 year = year - 2010
 K = year % 12
+
 match K:
     case 0:
         print("虎年")

@@ -4,6 +4,7 @@ numList = []
 for k in range(1,6):
     card = input(f"輸入第{k}張卡牌:")
     numList.append(card)
+
 point = 0
 for i in range(5):
     match numList[i]:
@@ -33,4 +34,5 @@ for i in range(5):
             point = point + 12
         case "K":    
             point = point + 13
+
 print(f"卡片點數總合為:{point}點")
